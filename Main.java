@@ -14,7 +14,8 @@
 
 public class Main{
     public static void main(String[]args){
-        Livro livro1 = new Livro("titulo", "autor", 5, 100);    
+        Livro livro1 = new Livro("titulo", "autor", 5, 100);
+        livro1.exibirInformacoes();    
             
     }
 }

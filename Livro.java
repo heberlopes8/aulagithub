@@ -1,6 +1,6 @@
 
-Livro livro1 = Main.main(String[] args) {
-    livro1.exibirInformacoes();
+//Livro livro1 = Main.main(String[] args) {
+  //  livro1.exibirInformacoes();
 
 public class Livro {
     private String titulo;
@@ -15,7 +15,6 @@ public class Livro {
         this.quantidadePaginas = quantidadePaginas;
     }
 
-    // Retorna tempo estimado de leitura em horas (assumindo 1 minuto por página)
     public double calcularTempoLeitura() {
         double minutosPorPagina = 1.0;
         double minutosTotais = quantidadePaginas * minutosPorPagina;
@@ -39,5 +38,4 @@ public class Livro {
     public void setAnoPublicacao(int anoPublicacao) { this.anoPublicacao = anoPublicacao; }
     public int getQuantidadePaginas() { return quantidadePaginas; }
     public void setQuantidadePaginas(int quantidadePaginas) { this.quantidadePaginas = quantidadePaginas; }
-}
 }
